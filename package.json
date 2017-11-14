@@ -1,14 +1,26 @@
 {
-  "name": "i",
+  "name": "k",
   "version": "1.0.0",
   "main": "bamazonCustomer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "customer": "node BamazonCustomer.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "customer": "node run bamazonCustomer.js",
+    "start": "node bamazonCustomer.js"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "inquirer": "^4.0.0",
+    "mysql": "^2.15.0"
+  },
   "devDependencies": {},
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tdnelson81/Bamazon2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tdnelson81/Bamazon2/issues"
+  },
+  "homepage": "https://github.com/tdnelson81/Bamazon2#readme"
 }
